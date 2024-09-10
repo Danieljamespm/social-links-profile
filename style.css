@@ -23,4 +23,20 @@ main{
     max-width: 380px;
     background-color: var(--gray-8);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
