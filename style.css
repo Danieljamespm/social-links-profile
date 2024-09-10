@@ -1,0 +1,25 @@
+:root{
+    /*Colors*/
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --gray-7:  hsl(0, 0%, 20%);
+    --gray-8: hsl(0, 0%, 12%);
+    --gray-9: hsl(0, 0%, 8%);
+
+
+}
+
+body{
+    min-height:100vh;
+    background-color: var(--gray-9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 500px;
+    width: 100vw;
+    max-width: 380px;
+    background-color: var(--white);
+}
