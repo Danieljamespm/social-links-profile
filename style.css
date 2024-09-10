@@ -22,4 +22,5 @@ main{
     width: 100vw;
     max-width: 380px;
     background-color: var(--gray-8);
+    border-radius: 10px;
 }
